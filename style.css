@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif !important;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8rem;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.city-div {
+  margin-top: 5rem;
+}
+
+.city-bar {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 5rem;
+}
+
+.city-icon {
+  color: gray;
+  margin-right: 0.4rem;
+}
+
+.city-input {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+
+  outline: none;
+  width: 25rem;
+}
+.city-input::placeholder {
+  color: rgb(189, 189, 189);
+}
+
+input[type="search"]::-webkit-city-cancel-button {
+  -webkit-appearance: none;
+}
+
+.button {
+  padding: 0 2rem;
+  border-radius: 3rem;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  margin-left: 1rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.button:hover {
+  background-color: rgb(192, 192, 192);
+  color: black;
+}
+
+.weather-content {
+  height: 50rem;
+}
+
+.weather-card {
+  padding: 3rem 3rem;
+  border-radius: 1rem;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* weather color */
+
+.Snow-content {
+  background: linear-gradient(
+    0deg,
+    rgba(45, 170, 255, 1) 0%,
+    rgba(202, 227, 245, 1) 58%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.Snow-card {
+  background: linear-gradient(
+    180deg,
+    rgba(45, 170, 255, 1) 0%,
+    rgba(202, 227, 245, 1) 100%
+  );
+}
+.Rain-content {
+  background: linear-gradient(
+    0deg,
+    rgba(24, 75, 110, 1) 0%,
+    rgba(140, 165, 183, 1) 38%,
+    rgba(255, 255, 255, 1) 89%
+  );
+}
+
+.Rain-card {
+  background: linear-gradient(
+    180deg,
+    rgba(24, 75, 110, 1) 0%,
+    rgba(140, 165, 183, 1) 100%
+  );
+}
+.Mist-content {
+  background: linear-gradient(
+    0deg,
+    rgba(74, 74, 74, 1) 0%,
+    rgba(231, 231, 231, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.Mist-card {
+  background: linear-gradient(
+    180deg,
+    rgba(74, 74, 74, 1) 0%,
+    rgba(231, 231, 231, 1) 100%
+  );
+}
+.Drizzle-content {
+  background: linear-gradient(
+    0deg,
+    rgba(72, 135, 227, 1) 0%,
+    rgba(171, 218, 255, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.Drizzle-card {
+  background: linear-gradient(
+    180deg,
+    rgba(72, 135, 227, 1) 0%,
+    rgba(171, 218, 255, 1) 100%
+  );
+}
+.Clouds-content {
+  background: linear-gradient(
+    0deg,
+    rgba(72, 135, 227, 1) 0%,
+    rgba(171, 218, 255, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.Clouds-card {
+  background: linear-gradient(
+    180deg,
+    rgba(72, 135, 227, 1) 0%,
+    rgba(171, 218, 255, 1) 100%
+  );
+}
+.Clear-content {
+  background: linear-gradient(
+    0deg,
+    rgba(227, 186, 72, 1) 0%,
+    rgba(255, 249, 160, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.Clear-card {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 241, 201, 1) 0%,
+    rgba(238, 233, 143, 1) 100%
+  );
+}
